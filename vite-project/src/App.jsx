@@ -27,7 +27,10 @@ function App() {
         <div className="header-actions">
           <div className="centered-buttons">
             <Nav scp={scp} onSCPSelect={setSelectedSCP} />
-            <button className="toggle-mode styled-btn" onClick={() => setDarkMode(!darkMode)}>
+            <button
+              className="toggle-mode styled-btn"
+              onClick={() => setDarkMode(!darkMode)}
+            >
               {darkMode ? '☀️ Light Mode' : '🌙 Dark Mode'}
             </button>
           </div>
@@ -41,4 +44,3 @@ function App() {
 }
 
 export default App;
-
