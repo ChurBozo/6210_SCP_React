@@ -8,19 +8,17 @@ function App() {
   const [selectedSCP, setSelectedSCP] = useState(null);
   const [darkMode, setDarkMode] = useState(true);
 
-
   useEffect(() => {
-  const base = import.meta.env.BASE_URL;
+    const base = import.meta.env.BASE_URL;
 
-  fetch(`${base}data.json`)
-    .then(res => {
-      if (!res.ok) throw new Error("Network response was not ok");
-      return res.json();
-    })
-    .then(data => setSCP(data))
-    .catch(err => console.error("Error loading data", err));
-    }, []);
-
+    fetch(`${base}data.json`)
+      .then(res => {
+        if (!res.ok) throw new Error("Network response was not ok");
+        return res.json();
+      })
+      .then(data => setSCP(data))
+      .catch(err => console.error("Error loading data", err));
+  }, []);
 
   return (
     <div className={`app-container ${darkMode ? 'dark' : ''}`}>
@@ -41,4 +39,6 @@ function App() {
     </div>
   );
 }
+
 export default App;
+
