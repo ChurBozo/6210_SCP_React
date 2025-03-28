@@ -5,7 +5,7 @@
     "description": "SCP-002 resembles a tumorous, fleshy growth with a volume of roughly 60 m (2000 ft). An iron valve hatch leads to its interior, which appears to be a low-rent apartment of modest size. The furnishings withinchairs, lamps, etc. are composed of sculpted bone, woven hair, and various biological materials. Each object contains unique DNA. SCP-002 reacts only to living humans, who disappear upon entry and may be used to generate new furniture. Lab animals and cadavers do not elicit a response.",
     "special_containment_procedures": "SCP-002 must remain connected to a power supply to stay in recharging mode. In case of outage, emergency barriers close and the area is evacuated. X-ray and UV light pulses must be used until it is reconnected. Containment requires negative air pressure. Teams of two are required within 20 meters and must maintain physical contact. Access below Level 3 is restricted without special clearance and requires quarantine afterward.",
     "reference": "Subject was discovered in a small crater in northern Portugal, having apparently fallen from orbit. General Mulhausen led a recovery operation during which several personnel disappeared after entering SCP-002. New furnishings appeared after each disappearance. Witnesses were terminated, and SCP-002 was relocated. Personnel must meet strict containment protocols including quarantine and psychological evaluation.",
-    "image": "/images/SCP-002.webp"
+    "image": "images/SCP-002.webp"
   },
   {
     "name": "SCP-003",
@@ -13,7 +13,7 @@
     "description": "SCP-003 consists of SCP-003-1 (a living structure resembling a circuit board made of chitin, hair, and nails) and SCP-003-2 (a rune-covered stone tablet with an internal power source and radiation emitter). SCP-003-1 increases mass and forms complex shapes when cooled below 35C, including ophiuroid-like limbs and humanoid figures. It absorbs organic/inorganic material and slows growth when in contact with living organisms. SCP-003-2 emits radiation to inhibit or reverse SCP-003-1's growth.",
     "special_containment_procedures": "SCP-003 must be kept above 35C, ideally above 100C. Contact with living organisms of Category IV or higher is prohibited. If power fails and growth begins, personnel must provide body heat through skin contact. All personnel must be checked for parasites and sterilized after exposure. SCP-003-2 must always receive power from Generator 003-IX, and rune activity must be monitored.",
     "reference": "Remote viewing team SRV-04 Beta located SCP-003, potentially contacted by SCP-003-2. Addendums detail structural changes, attempted communication, and breaches during containment. M03-Gloria procedures led to significant growth events, a humanoid form, and direct interaction with researchers. SCP-003-1 reverted state after radiation bursts, and containment was re-established.",
-    "image": "/images/SCP-003.webp"
+    "image": "images/SCP-003.webp"
   },
   {
     "name": "SCP-004",
@@ -21,7 +21,7 @@
     "description": "SCP-004 consists of SCP-004-1 (an old wooden barn door) and SCP-004-2 to SCP-004-13 (12 rusted steel keys). The keys open the door to dangerous alternate dimensions. Only SCP-004-7 and SCP-004-12 are considered 'safe'. Other keys result in dismemberment or disappearance of test subjects. Site-62 has been constructed inside SCP-004-1. Spatiotemporal anomalies are common, with incidents of time loss and reappearance of remains years later.",
     "special_containment_procedures": "SCP-004 keys must not be removed from the site except by two Level 4 personnel. No component other than the keys may be taken through SCP-004-1. If containment is breached, keys must be secured inside the door before Site-62s warhead is triggered. Level 1 clearance is required for SCP-004-1; Level 4 for SCP-004-2 to -13.",
     "reference": "First discovered by juveniles in 1949. Initial tests resulted in casualties. SCP-004-CAS01's remains were found scattered up to 32 km away. Site-62 serves as a secure facility for dangerous SCPs and database storage. Appendix A and B describe mental health effects, dimensional anomalies, and SCP-004-14a box larger inside than out.",
-    "image": "/images/SCP-004.webp"
+    "image": "images/SCP-004.webp"
   },
   {
     "name": "SCP-005",
@@ -29,7 +29,7 @@
     "description": "SCP-005 is an ornate key capable of unlocking any mechanical or digital lock regardless of complexity. Its function appears universal, though it may fail if the lock is disguised or unrecognized by the user. Despite its utility, it is heavily restricted due to its potential misuse.",
     "special_containment_procedures": "SCP-005 must be stored securely and may only be accessed with approval from one Level 4 personnel. It may not be used for unauthorized tasks like vending machines, lockers, or home access. Unauthorized removal leads to immediate termination.",
     "reference": "Originally discovered when a civilian breached a high-security facility. Appendix A notes SCP-005's failure in about 50% of tests when the locks purpose was disguised. This suggests possible sentience. Prohibited uses include vending machines and personal lockers.",
-    "image": "/images/SCP-005.webp"
+    "image": "images/SCP-005.webp"
   },
   {
     "name": "SCP-006",
@@ -37,6 +37,6 @@
     "description": "SCP-006 is a small spring located 60 km west of Astrakhan. Its water appears to be ordinary mineral water but has exceptional health properties: DNA regeneration, rapid tissue repair, and immune system enhancement. These effects are limited to higher primates. The site is disguised as a chemical plant for secrecy.",
     "special_containment_procedures": "Personnel must wear Class VI BNC suits and pass fake briefings. Liquid collection must be approved by three O5-level personnel and transported in secure containers under guard. Contact with the liquid results in quarantine, study, and incineration post-analysis.",
     "reference": "Discovered in the 19th century but secured in 1991. Personnel must wear sealed suits and are misled about the spring's properties. Any exposure leads to strict confinement and termination post-study. Liquid transfers require approval by three O5-level personnel.",
-    "image": "/images/SCP-006.webp"
+    "image": "images/SCP-006.webp"
   }
 ]
