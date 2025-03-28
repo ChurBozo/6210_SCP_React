@@ -5,16 +5,28 @@ function Nav({ scp, onSCPSelect }) {
 
   return (
     <div className="dropdown">
-      <button className="dropdown-btn styled-btn" onClick={() => setIsOpen(!isOpen)}>
+      <button
+        className="dropdown-btn styled-btn"
+        onClick={() => setIsOpen(!isOpen)}
+      >
         Select SCP
       </button>
-      <ul className={`dropdown-content ${isOpen ? 'show' : ''}`}>
-        {scp.map((scpItem) => (
-          <li key={scpItem.name} onClick={() => { setIsOpen(false); onSCPSelect(scpItem); }}>
-            {scpItem.name}
-          </li>
-        ))}
-      </ul>
+
+      {isOpen && (
+        <ul className="dropdown-content">
+          {scp.map((scpItem) => (
+            <li
+              key={scpItem.name}
+              onClick={() => {
+                setIsOpen(false);
+                onSCPSelect(scpItem);
+              }}
+            >
+              {scpItem.name}
+            </li>
+          ))}
+        </ul>
+      )}
     </div>
   );
 }

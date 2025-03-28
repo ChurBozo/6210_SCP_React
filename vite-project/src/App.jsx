@@ -9,7 +9,7 @@ function App() {
   const [darkMode, setDarkMode] = useState(true);
 
   useEffect(() => {
-    fetch("https://raw.githubusercontent.com/ChurBozo/6210_SCP_React/main/vite-project/src/data.json")
+    fetch("/data.json")
       .then(response => response.json())
       .then(data => setSCP(data))
       .catch(error => console.error("Error loading data", error));
