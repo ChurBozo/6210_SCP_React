@@ -7,12 +7,14 @@ function SCP({ scp }) {
     return <div className="info-card">Select an SCP from the dropdown menu to view details</div>;
   }
 
+  const imagePath = `${import.meta.env.BASE_URL}${scp.image}`;
+
   return (
     <div className="info-card fade-in">
       <div className="scp-text-wrapper">
         <h2 className="centered-header">{scp.name}</h2>
         <h4 className="object-class centered-header">Class: {scp.class}</h4>
-        <img src={scp.image} alt={scp.name} className="scp-image" />
+        <img src={imagePath} alt={scp.name} className="scp-image" />
 
         <div className="tabs centered-buttons">
           <button className={`styled-btn ${activeTab === 'procedures' ? 'active' : ''}`} onClick={() => setActiveTab('procedures')}>Procedures</button>
@@ -29,3 +31,4 @@ function SCP({ scp }) {
 }
 
 export default SCP;
+
